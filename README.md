@@ -1,1 +1,47 @@
-**Breast Ultrasound Image Segmentation using U-Net and Dice Loss**
+# Breast Ultrasound Image Segmentation Using U-Net and Dice Loss
+
+This project focuses on the segmentation of breast ultrasound images using the U-Net architecture with Dice Loss. It involves deep learning techniques to accurately predict and segment tumor regions from ultrasound scans.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Model Architecture](#model-architecture)
+- [Loss Function](#loss-function)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The goal of this project is to apply deep learning techniques to the medical imaging domain, specifically in breast ultrasound segmentation. The U-Net architecture is used due to its efficiency in medical image segmentation tasks. The Dice Loss function is employed to improve the overlap between predicted segmentation masks and ground truth.
+
+## Dataset
+
+The dataset used in this project is the **Breast Ultrasound Images Dataset (BUSI)**, which consists of ultrasound images of breast tumors and their corresponding ground truth masks. The dataset includes three categories: benign, malignant, and normal cases. 
+
+You can find the dataset in : [https://www.kaggle.com/datasets/sabahesaraki/breast-ultrasound-images-dataset]
+
+### Dataset Structure
+
+- **Images**: Breast ultrasound scans.
+- **Masks**: Corresponding binary masks indicating tumor regions.
+
+The segmentation model is based on the **U-Net** architecture, a convolutional neural network designed for biomedical image segmentation. U-Net consists of an encoder-decoder structure with skip connections, allowing the model to capture both context and fine-grained details.
+
+### U-Net Layers:
+1. **Encoder**: Extracts features from input images at multiple scales.
+2. **Bottleneck**: Connects the encoder and decoder.
+3. **Decoder**: Reconstructs the segmentation mask from the encoded features.
+4. **Output Layer**: A single-channel convolution layer with a sigmoid activation function for binary mask prediction.
+
+## Loss Function
+
+The **Dice Loss** function is used to evaluate the accuracy of the segmentation. Dice Loss is calculated based on the overlap between the predicted segmentation mask and the ground truth mask. It is particularly effective for tasks with imbalanced classes like medical image segmentation.
+
+![alt text](data:image/png;base64,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)
+
