@@ -28,6 +28,10 @@ The segmentation model is based on the **U-Net** architecture, a convolutional n
 ## Loss Function
 
 The **Dice Loss** function is used to evaluate the accuracy of the segmentation. Dice Loss is calculated based on the overlap between the predicted segmentation mask and the ground truth mask. It is particularly effective for tasks with imbalanced classes like medical image segmentation.
-
+‎ ‎ ‎ ‎ ‎ 
+‎ ‎ ‎ 
+‎ ‎ ‎ 
 
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎![image](https://github.com/user-attachments/assets/546f2d15-0090-4ec2-b247-73a44a12d1d5)
+‎ ‎ 
+‎ 
