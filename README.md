@@ -10,7 +10,7 @@ The goal of this project is to apply deep learning techniques to the medical ima
 
 The dataset used in this project is the **Breast Ultrasound Images Dataset (BUSI)**, which consists of ultrasound images of breast tumors and their corresponding ground truth masks. The dataset includes three categories: benign, malignant, and normal cases. 
 
-You can find the dataset in : [https://www.kaggle.com/datasets/sabahesaraki/breast-ultrasound-images-dataset]
+You can find the dataset here : [https://www.kaggle.com/datasets/sabahesaraki/breast-ultrasound-images-dataset]
 
 ### Dataset Structure
 
