@@ -43,3 +43,9 @@ The **Dice Loss** function is used to evaluate the accuracy of the segmentation.
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎![image](https://github.com/user-attachments/assets/546f2d15-0090-4ec2-b247-73a44a12d1d5)
 ‎ ‎ 
 ‎ 
+## Results
+
+![image](https://github.com/user-attachments/assets/37c4ef8b-3636-42d6-8fec-6cc329495223) ![image](https://github.com/user-attachments/assets/1b52fe7d-ce62-4a18-9139-d4dabfbec9c4)  ![image](https://github.com/user-attachments/assets/070c0a34-c0a6-4941-a976-3ebe499a0b40)
+
+
+
