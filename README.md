@@ -24,6 +24,7 @@ The segmentation model is based on the **U-Net** architecture, a convolutional n
 2. **Bottleneck**: Connects the encoder and decoder.
 3. **Decoder**: Reconstructs the segmentation mask from the encoded features.
 4. **Output Layer**: A single-channel convolution layer with a sigmoid activation function for binary mask prediction.
+5. **Trained Weights**: [https://drive.google.com/file/d/1JgpDaY4sAWMdoJs4-bS4cPyJj_P4RDgd/view?usp=sharing]
    ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
    ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
    ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
