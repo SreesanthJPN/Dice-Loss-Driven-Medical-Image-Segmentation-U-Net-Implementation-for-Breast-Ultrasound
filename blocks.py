@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 
-class conv_block(nn.Module):
+class conv_block(nn.Module):  
 
     def __init__(self, in_dims, n_filters):
         super(conv_block, self).__init__()
@@ -27,7 +27,7 @@ class conv_block(nn.Module):
 
         return x
     
-class Encoder(nn.Module):
+class Encoder(nn.Module):  //Downsampling Blocks
 
     def __init__(self, in_channels, out_channels):
         super(Encoder, self).__init__()
@@ -42,7 +42,7 @@ class Encoder(nn.Module):
 
         return x, p
     
-class Decoder(nn.Module):
+class Decoder(nn.Module):  //Upsampling Blocks 
 
     def __init__(self, in_ch, out_ch):
         super(Decoder, self).__init__()
